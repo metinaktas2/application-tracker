@@ -1,4 +1,4 @@
-#📌 Application Tracker
+# 📌 Application Tracker
 
 A modern and fully responsive job application tracking app that helps you manage and monitor your job applications in one place.
 
