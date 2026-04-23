@@ -1,0 +1,37 @@
+/* empty.module.scss */
+
+.emptyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  text-align: center;
+  color: #f0f0f0; /* daha açık yazı rengi */
+  font-family: "Arial", sans-serif;
+  font-size: 1.2rem;
+  gap: 1rem;
+  background: linear-gradient(
+    135deg,
+    var(--background-card) 0%,
+    var(--background-light) 100%
+  );
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* gölgeyi biraz artırdık */
+}
+
+.emptyContainer a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: #1e90ff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.emptyContainer a:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+  transform: translateY(-2px);
+}

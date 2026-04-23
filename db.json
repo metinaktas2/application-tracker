@@ -1,0 +1,22 @@
+{
+  "jobs": [
+    {
+      "id": "6cb5",
+      "position": "Backend Developer1",
+      "company": "Mimcode1",
+      "location": "İstanbul",
+      "status": "Devam Ediyor",
+      "type": "Yarı Zamanlı",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "5971",
+      "position": "Data Analyst",
+      "company": "coca cola",
+      "location": "İstanbul, Türkiye",
+      "status": "Mülakat",
+      "type": "Staj",
+      "interview_date": "2026-06-05T23:24"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  text-align: center;
+  color: #f0f0f0;
+  font-family: "Arial", sans-serif;
+  font-size: 1.2rem;
+  gap: 1rem;
+  background: linear-gradient(
+    135deg,
+    var(--background-card) 0%,
+    var(--background-light) 100%
+  );
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.errorContainer button {
+  background-color: #ff4d4f;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.errorContainer button:hover {
+  background-color: #e63946;
+  transform: translateY(-2px);
+}

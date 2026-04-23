@@ -1,0 +1,12 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.page {
+  padding: 20px;
+  flex: 1;
+  @media (min-width: 768px) {
+    padding: 20px 40px;
+  }
+}
