@@ -15,7 +15,7 @@ A modern and fully responsive job application tracking app that helps you manage
 - ❌ Delete applications
 - 📱 Fully responsive design
 - 🔔 Toast notification system
-- 🛠️ Tech Stack
+# 🛠️ Tech Stack
 - React
 - React Router DOM
 - Redux Toolkit
